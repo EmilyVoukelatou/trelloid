@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Trelloid::VERSION
   gem.authors       = ["Stratos Voukelatos"]
   gem.email         = ["stratosvoukel@gmail.com"]
-  gem.description   = %q{Like Hubot but for Trello}
-  gem.summary       = %q{Trello automation DSL}
+  gem.description   = %q{Trello automation DSL}
+  gem.summary       = %q{Use trello as an task doer}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rspec-mocks"
+  gem.add_development_dependency "simplecov"
 
   gem.add_dependency "ruby-trello"
   gem.add_dependency "activesupport"

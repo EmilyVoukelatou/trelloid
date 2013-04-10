@@ -1,6 +1,5 @@
 # Trelloid
 
-TODO: Write a gem description
 
 ## Installation
 
@@ -16,9 +15,6 @@ Or install it yourself as:
 
     $ gem install trelloid
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
