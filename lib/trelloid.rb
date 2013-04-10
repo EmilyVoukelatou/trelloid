@@ -69,6 +69,7 @@ module Trelloid
 
   end
 
+
   class Task
 
     attr_reader :name, :proc
@@ -87,6 +88,7 @@ module Trelloid
     end
 
   end
+
 
   class TaskRunner
 
